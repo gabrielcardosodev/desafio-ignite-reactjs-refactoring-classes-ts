@@ -6,6 +6,10 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "@types/react-dom": "^18.0.0",
+    "@types/react-modal": "^3.13.1",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/styled-components": "^5.1.25",
     "@unform/core": "^2.1.6",
     "@unform/web": "^2.1.6",
     "axios": "^0.21.1",
@@ -19,7 +23,7 @@
     "yup": "^0.32.9"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -44,6 +48,7 @@
     ]
   },
   "devDependencies": {
-    "json-server": "^0.16.3"
+    "json-server": "^0.16.3",
+    "typescript": "^4.6.3"
   }
 }
